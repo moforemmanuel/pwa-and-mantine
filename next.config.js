@@ -10,7 +10,7 @@ const withPWA = require('next-pwa')({
   disable: process.env.NODE_ENV == 'development',
   register: true,
   // skipWaiting: true,
-  // sw: 'ws.js',
+  // sw: 'sw.js',
   // scope: '/',
 
   // cache data for jsonplaceholder
