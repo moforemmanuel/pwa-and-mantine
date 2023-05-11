@@ -17,5 +17,10 @@ module.exports = {
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'linebreak-style': ['error', 'windows'],
+    'no-restricted-globals': 'off',
+    'no-alert': 'off',
+    'no-console': 'off',
+    'arrow-body-style': 'off',
   },
 };
